@@ -103,7 +103,6 @@ def get_lora_info(lora_name):
     
     return (output, trainedWords, examplePrompt, baseModel)
 
-LORA_LIST = sorted(folder_paths.get_filename_list("loras"), key=str.lower)
 
 @server.PromptServer.instance.routes.post('/lora_info')
 async def fetch_lora_info(request):
@@ -119,6 +118,7 @@ class LoraInfo:
     
     @classmethod
     def INPUT_TYPES(s):
+        LORA_LIST = sorted(folder_paths.get_filename_list("loras"), key=str.lower)
         return {
             "required": {
                 "lora_name": (LORA_LIST, )
