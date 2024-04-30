@@ -1,8 +1,20 @@
-# Contains 2 Nodes
-- Lora Info
-- Image From URL
+# Lora Info for ComfyUI
 
-Apologies for shoving another node into this repo, I'll eventually create a new repo for the Image From URL 
+Shows Lora Base Model, Trigger Words and Examples. Pulls data from CivitAI
+
+
+Special thanks to:
+
+- `badjeff` for doing all the actual hard work (https://github.com/badjeff/comfyui_lora_tag_loader)
+- `alessandroperilli` for all the feedback.
+
+![image](preview.png)
+
+
+## Youtube Tutorials
+- `Joe Conway` (https://www.youtube.com/watch?v=uU4jUV4rm_A)
+- `스페이스 플라워` (https://www.youtube.com/watch?v=1XNQQ63MfLs)
+
 
 ## Installation
 
@@ -21,18 +33,15 @@ git clone https://github.com/jitcoder/lora-info.git
 
 Download this repo as a zip and extract in the custom-nodes directory.
 
+#
+#
+#
 
-## Lora Info
+### Note: Contains two Nodes
+Apologies for shoving another node into this repo, I'll eventually create a new repo for the Image From URL 
 
-Shows Lora Base Model, Trigger Words and Examples
-
-Special thanks to:
-
-- `badjeff` for doing all the actual hard work (https://github.com/badjeff/comfyui_lora_tag_loader)
-- `alessandroperilli` for all the feedback.
-
-![image](preview.png)
-
+- Lora Info
+- Image From URL
 
 ## Image From URL
 
