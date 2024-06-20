@@ -74,7 +74,10 @@ def get_lora_info(lora_name):
         baseModel = model_info.get("baseModel", "")
         images = model_info.get('images')
         examplePrompt = None
-
+        modelID = model_info.get("modelId")
+        
+        if modelID:
+            output += f"URL: https://civitai.com/models/{modelID}\n"
         if trainedWords:
             output += "Triggers: " + trainedWords
             output += "\n"
