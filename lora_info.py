@@ -128,14 +128,14 @@ class LoraInfo:
             },
         }
 
-    RETURN_NAMES = ("trigger_words", "example_prompt")
-    RETURN_TYPES = ("STRING", "STRING")
+    RETURN_NAMES = ("lora_name", "trigger_words", "example_prompt")
+    RETURN_TYPES = ("STRING", "STRING", "STRING")
     FUNCTION = "lora_info"
     OUTPUT_NODE = True
     CATEGORY = "jitcoder"
 
     def lora_info(self, lora_name):
         (output, triggerWords, examplePrompt, baseModel) = get_lora_info(lora_name)
-        return {"ui": {"text": (output,), "model": (baseModel,)}, "result": (triggerWords, examplePrompt)}
+        return {"ui": {"text": (output,), "model": (baseModel,)}, "result": (lora_name, triggerWords, examplePrompt)}
 
 
