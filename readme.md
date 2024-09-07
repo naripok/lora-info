@@ -11,6 +11,10 @@ Special thanks to:
 ![image](preview.png)
 
 
+## Example Usage
+
+![image](lorainfo_example.gif)
+
 ## Youtube Tutorials
 - `Joe Conway` (https://www.youtube.com/watch?v=uU4jUV4rm_A)
 - `스페이스 플라워` (https://www.youtube.com/watch?v=1XNQQ63MfLs)
