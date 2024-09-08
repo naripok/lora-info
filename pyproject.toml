@@ -1,7 +1,7 @@
 [project]
 name = "lora-info"
 description = "Shows Lora information from CivitAI and outputs trigger words and example prompt"
-version = "1.0.0"
+version = "1.0.1"
 license = "LICENSE"
 
 [project.urls]
